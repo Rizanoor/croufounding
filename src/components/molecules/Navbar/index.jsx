@@ -11,10 +11,14 @@ function Navbar() {
                     <img src={logo} alt="logo" className="h-full" />
                 </div>
                 <ul className="flex items-center">
-                    <Menu />
+                    <Menu title="Home" href="/" />
+                    <Menu title="Project" href="/" />
+                    <Menu title="Features" href="/" />
+                    <Menu title="Success Stories" href="/" />
                 </ul>
                 <ul className="flex ml-auto items-center mt-2">
-                    <Auth />
+                    <Auth title="Sign in" href="/sign-in" />
+                    <Auth title="Sign up" href="/sign-up" />
                 </ul>
             </header>
         </>

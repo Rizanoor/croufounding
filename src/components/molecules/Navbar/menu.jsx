@@ -1,36 +1,12 @@
-function Menu() {
+function Menu({ title, href = '/' }) {
     return (
         <>
             <li>
                 <a
                     className="text-white hover:text-teal-500 text-lg px-4 py-3"
-                    href="/"
+                    href={href}
                 >
-                    Home
-                </a>
-            </li>
-            <li>
-                <a
-                    className="text-white hover:text-teal-500 text-lg px-4 py-3"
-                    href="/projects.html"
-                >
-                    Project
-                </a>
-            </li>
-            <li>
-                <a
-                    className="text-white hover:text-teal-500 text-lg px-4 py-3"
-                    href="/features.html"
-                >
-                    Features
-                </a>
-            </li>
-            <li>
-                <a
-                    className="text-white hover:text-teal-500 text-lg px-4 py-3"
-                    href="/story.html"
-                >
-                    Success Stories
+                    {title}
                 </a>
             </li>
         </>

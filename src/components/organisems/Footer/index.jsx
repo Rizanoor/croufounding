@@ -1,12 +1,13 @@
+import footerLogo from "../../../assets/images/logo-footer.svg"
+
 function Footer() {
     return (
         <>
-
             <footer className="bg-purple-progress py-20 text-white text-lg">
                 <div className="container mx-auto">
                     <div className="sm:flex mb-4">
                         <div className="sm:w-1/2 sm:mt-0 mt-8 h-auto">
-                            <img src="/logo-footer.svg" alt="" className="mb-3" />
+                            <img src={footerLogo} alt="" className="mb-3" />
                             <p className="font-light">
                                 Helps people execute their <br />bright ideas
                             </p>
