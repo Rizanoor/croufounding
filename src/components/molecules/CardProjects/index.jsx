@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import projectThumbnail1 from "../../../assets/images/project-thumbnail-1.jpg";
 
 function CardProjects() {
@@ -31,12 +32,12 @@ function CardProjects() {
                                 <div>20%</div>
                                 <div className="ml-auto font-semibold">Rp 100.000.000</div>
                             </div>
-                            <a
-                                href="/projects.html"
+                            <Link
+                                to="/project"
                                 className="text-center mt-5 button-cta block w-full bg-orange-button hover:bg-green-button text-white font-semibold px-6 py-2 text-lg rounded-full"
                             >
                                 Fund Now
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

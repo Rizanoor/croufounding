@@ -12,7 +12,7 @@ function Navbar() {
                 </div>
                 <ul className="flex items-center">
                     <Menu title="Home" href="/" />
-                    <Menu title="Project" href="/" />
+                    <Menu title="Project" href="/project" />
                     <Menu title="Features" href="/" />
                     <Menu title="Success Stories" href="/" />
                 </ul>
