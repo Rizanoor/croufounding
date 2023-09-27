@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import fundedIlustrasion from "../assets/images/funded-illustration.svg"
 function FundSuccess() {
     return (
@@ -20,14 +21,14 @@ function FundSuccess() {
                 <button
                   className="block w-full bg-orange-button hover:bg-green-button text-white font-semibold px-6 py-4 text-lg rounded-full"
                 >
-                  Fund Other Project
+                  <Link to="/">Fund Other Project</Link>
                 </button>
               </div>
               <div className="mb-4">
                 <button
                   className="block w-full bg-transparent border border-gray-500 text-gray-500 hover:bg-green-button hover:border-green-button hover:text-white font-light px-6 py-4 text-lg rounded-full"
                 >
-                  My Dashboard
+                    <Link to="/dashboard">My Dashboard</Link>
                 </button>
               </div>
             </div>
