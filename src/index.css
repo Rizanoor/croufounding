@@ -22036,6 +22036,18 @@
     transform: skewY(-6deg);
     transform-origin: top left;
   }
+
+  .auth-background {
+    background-image: url("../src/assets/images/sign-in-background.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .auth-background-register {
+    background-image: url("../src/assets/images/sign-up-background.jpg");
+    background-position: center;
+    background-size: cover;
+  }
   
   .cta-clip {
     position: relative;
