@@ -1,11 +1,23 @@
+import Clients from "./components/organisems/Clients";
+import EasyFunding from "./components/organisems/EasyFunding";
+import Footer from "./components/organisems/Footer.index";
+import Hero from "./components/organisems/Hero";
+import Ideas from "./components/organisems/Ideas";
+import Projects from "./components/organisems/Projects";
+
 function App() {
   return (
     <>
-      <div className="w-screen h-screen bg-red-300">
-        <h1 className="text-center text-6xl"> Hello world</h1>
+      <div className="landing-page">
+        <Hero />
+        <Ideas />
+        <Projects />
+        <Clients />
+        <EasyFunding />
+        <Footer />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
