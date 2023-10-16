@@ -18,7 +18,7 @@ function Navbar() {
                 </ul>
                 <ul className="flex ml-auto items-center mt-2">
                     <Auth title="Sign in" href="/sign-in" />
-                    <Auth title="Sign up" href="/sign-up" />
+                    <Auth title="Sign up" href="/register" />
                 </ul>
             </header>
         </>
